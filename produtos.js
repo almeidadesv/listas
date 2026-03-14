@@ -146,3 +146,4 @@ let mediaEstoque = produtos.reduce (
 console.log (mediaEstoque)
 
 //valor médio de cada produto
+
