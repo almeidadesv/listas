@@ -22,6 +22,7 @@ fieldset {
 
 #fieldsetFuncoes {
     width: 40%;
+    padding: 20px 20px;
 }
 
 #fieldsetDisplay {
@@ -32,7 +33,8 @@ fieldset {
 #containerCurvaABC {
     display: flex;
     justify-content: space-around;
-    padding: 10px 0px
+    padding: 10px 0px;
+
 }
 
 .selecaoCurva {
@@ -41,9 +43,22 @@ fieldset {
     gap: 10px
 }
 
+.selecaoCurva:hover{
+    cursor: pointer;
+}
+
+.containers {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+
 #containerDisplay {
     display: grid;
     grid-template-columns: 1fr 3fr max-content max-content;
     padding: 10px 20px;
     gap: 10px;
+    overflow: scroll;
+    height: 90vh;
 }
